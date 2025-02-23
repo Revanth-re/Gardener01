@@ -1531,7 +1531,7 @@ display: grid;
     }
     #menu{
         display: block;
-        margin-left:130%;
+        margin-left:120%;
         font-size: 1.4rem;
         /* text-align: end; */
     }
@@ -1542,13 +1542,14 @@ display: grid;
     .nav-2{
         overflow-x: hidden;
         margin-right: 9%;
+
     }
     .item-2{
 margin: 10%;
     }
     .nav-2{
         padding: 3%;
-        width: 110vw;
+        width: 90vw;
         /* margin: 4%; */
         margin-top: 0%;
         margin-left: 2%;
