@@ -1132,15 +1132,12 @@ margin: 5%;
 cursor: pointer;
 
 
-
-
-
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-1.jpg);
 
 }
 .sec-3 div:hover {
     color: aliceblue;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-2.jpg);
     cursor: pointer;
 }
 .sec-2 div:hover {
@@ -1151,12 +1148,12 @@ cursor: pointer;
 
 .sec-4 div:hover {
     color: aliceblue;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-4.jpg);
     cursor: pointer;
 }
 .sec-5 div:hover {
     color: aliceblue;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-5.jpg);
     cursor: pointer;
 }
 
@@ -1397,17 +1394,17 @@ margin: 5%;
 
 
 
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-2.jpg); */
 
 }
 .sec-3 div:hover {
     color: aliceblue;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-4.jpg); */
 
 }
 .sec-2 div:hover {
     color: aliceblue;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-3.jpg); */
 
 }
 html{
@@ -1418,17 +1415,17 @@ html{
 
 
     color: aliceblue;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-2.jpg); */
 
 }
 .sec-5 div:hover {
     color: aliceblue;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-1.jpg); */
 
 }
 .sec-6 div:hover {
     color: aliceblue;
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-6.jpg);
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(service-.jpg); */
 
 }
  
@@ -1528,8 +1525,8 @@ display: grid;
     }
     #menu{
         display: block;
-        margin-left:90%;
-        font-size: 2rem;
+        margin-left:140%;
+        font-size: 1.6rem;
     }
 
     nav{
@@ -1545,6 +1542,7 @@ margin: 10%;
         margin-top: 0%;
         margin-left: 1.5%;
         margin-right: 6%;
+        overflow: hidden;
     }
     .Button-text {
         position: absolute;
@@ -1630,7 +1628,7 @@ font-size: 0.9rem;
         margin-top: 10%;
     }
     #Gardener{
-        font-size: 2rem !important;
+        font-size: 1.6rem !important;
         font-weight: 700;
         color: rgb(14, 62, 47);
     }
