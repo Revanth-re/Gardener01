@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #size-icons i {
     font-size: 2rem;
    margin-right: 10px;
@@ -1549,11 +1550,11 @@ margin: 10%;
     }
     .nav-2{
         padding: 3%;
-        width: 90vw;
+        width: 100vw;
         /* margin: 4%; */
         margin-top: 0%;
-        margin-left: 2%;
-    
+        margin-left: 7%;
+    border-radius: 20px;
         overflow-x: hidden;
     }
     .Button-text {
