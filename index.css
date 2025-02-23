@@ -15,7 +15,7 @@
     color: rgb(14, 62, 47);
 }
 #main-slide{
-    margin-top: 30%;
+    margin-top: 100%;
     background-color: rgb(13, 129, 90);
     border-radius: 50%;
     color: black !important;
@@ -401,8 +401,8 @@ color: white;
 
 
             margin-left: 1%;
-            width: 95vw;
-            height: 60vh;
+            /* width: 95vw; */
+            /* height: 60vh; */
             /* background: rgba(30, 31, 30, 0.25);
             box-shadow: 0 8px 32px 0 rgba(38, 38, 38, 0.37);
             backdrop-filter: blur(4px);
@@ -414,7 +414,7 @@ color: white;
  
         .glass-img {
             background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(carousel-1.jpg);          
-            background-position:contain;
+            background-position:center;
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment: fixed;
@@ -424,6 +424,7 @@ color: white;
             /* margin-left:5; */
           
         }
+       
 .glass-section{
 
 }
@@ -1214,9 +1215,9 @@ cursor: pointer;
     .nav2-right{
         display: none;
     }
-    #carousel-1{
-    /* height: 65vh;
-    width: 80; */
+    
+   .main-glass{
+    margin: 5%;
    }
     .Main-img p{
         font-size: 1.5rem;
@@ -1235,6 +1236,9 @@ cursor: pointer;
         /* justify-content: center; */
         align-items: center;
 
+    }
+    .g-section{
+         margin-left: 5%;   
     }
     .section-3 {
         display:grid;
@@ -1396,6 +1400,7 @@ margin: 5%;
 
 
 
+
 .sec-1 div:hover {
     color: aliceblue;
 
@@ -1533,8 +1538,8 @@ display: grid;
     }
     #menu{
         display: block;
-        margin-left:90%;
-        font-size: 1.2rem;
+        margin-left:110%;
+        font-size: 1.4rem;
         /* text-align: end; */
     }
 
@@ -1641,6 +1646,9 @@ font-size: 0.9rem;
     #Home-button{
         margin-top: 10%;
     }
+    body{
+        overflow-x: hidden;
+    }
     #Gardener{
         font-size: 1.6rem !important;
         font-weight: 700;
@@ -1662,7 +1670,7 @@ font-size: 0.9rem;
         left: 35%; 
     }
     #main-slide{
-        margin-top: 40%;
+        margin-top: 50%;
         /* background-color: rgb(13, 129, 90); */
         border-radius: 50%;
         color: rgb(255, 246, 246) !important;
@@ -1674,6 +1682,23 @@ font-size: 0.9rem;
         /* font-size: 1rem; */
         font-size: 2rem;
     }
+    .glass-img {
+    /* background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(carousel-1.jpg);           */
+    background-position:contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    /* width: 98vw; */
+    /* margin-left:5; */
+  
+}
+#carousel-1{
+    height: 40vh;
+    /* width: 90vw; */
+    
+   }
 
 }
 
