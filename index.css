@@ -1543,10 +1543,12 @@ margin: 10%;
         /* width: 100vw; */
         /* margin: 4%; */
         margin-top: 0%;
+        margin-left: 1.5%;
+        margin-right: 6%;
     }
     .Button-text {
         position: absolute;
-    top: 50%;
+    top: 40%;
         left: 35%;
         /* padding: 2%; */
 
