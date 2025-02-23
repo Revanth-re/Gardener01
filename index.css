@@ -1213,6 +1213,9 @@ cursor: pointer;
         display: none;
 
     }
+    html{
+        overflow-x: hidden;
+    }
    
     .nav2-right{
         display: none;
