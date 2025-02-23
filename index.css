@@ -134,6 +134,7 @@ cursor: pointer;
             background-color: rgb(255, 255, 255);
             border: 1px solid;
             z-index: 100;
+            /* width: 100vw; */
             /* padding: -2%; */
             box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
      
@@ -434,7 +435,12 @@ color: white;
             margin: 10%;
         }
         .item-1{
-            font-size: 1.6rem;
+            font-size: 1rem;
+            font-weight: 100;
+        }
+        #why{
+            font-size: 2rem;
+            font-weight: 800;
         }
         .item701:hover{
 
@@ -1535,18 +1541,19 @@ display: grid;
     }
     .nav-2{
         overflow-x: hidden;
+        margin-right: 9%;
     }
     .item-2{
 margin: 10%;
     }
     .nav-2{
         padding: 3%;
-        /* width: 100vw; */
+        width: 110vw;
         /* margin: 4%; */
         margin-top: 0%;
-        margin-left: 1.5%;
-        margin-right: 6%;
-        overflow: hidden;
+        margin-left: 2%;
+    
+        overflow-x: hidden;
     }
     .Button-text {
         position: absolute;
