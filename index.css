@@ -1525,13 +1525,16 @@ display: grid;
     }
     #menu{
         display: block;
-        margin-left:80%;
+        margin-left:140%;
         font-size: 1.4rem;
         /* text-align: end; */
     }
 
     nav{
         display: none;
+    }
+    .nav-2{
+        overflow-x: hidden;
     }
     .item-2{
 margin: 10%;
