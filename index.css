@@ -1531,7 +1531,7 @@ display: grid;
     }
     #menu{
         display: block;
-        margin-left:140%;
+        margin-left:130%;
         font-size: 1.4rem;
         /* text-align: end; */
     }
@@ -1556,11 +1556,11 @@ margin: 10%;
         overflow-x: hidden;
     }
     .Button-text {
-        position: absolute;
+        /* position: absolute;
     top: 40%;
-        left: 35%;
+        left: 35%; */
         /* padding: 2%; */
-
+display: none;
     }#get-explore{
         font-size: 1rem;
         width: 35vw;
