@@ -146,8 +146,9 @@ cursor: pointer;
             display: flex;
             justify-content: space-between;
             align-items: center;
-            gap: 20px;
+            gap: 25px;
             margin-right: 0%;
+            font-size: 1.2rem;
         }
         .nav2-left {
             display: flex;
@@ -682,9 +683,13 @@ border-radius: 2%;
     margin-left: 30%;
     height: 10vh;
     border-radius: 2%;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: var(--color1);
 
+}
+.serv-nav p:hover{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 .section-7{
     margin: 2%;
@@ -1187,7 +1192,7 @@ cursor: pointer;
 }
 #get-start,#Home,#get-start,#get-started{
     width:20vw ;
-    border-radius: 5px;
+    border-radius: 2px;
             }
 
 @media (max-width:768px) {
@@ -1689,6 +1694,14 @@ margin-top: -15%;
 .Text h1{
     margin-left: -20%;
 }
+header{
+       
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+/* padding: -5%; */
+overflow-x: hidden;
+       }
 
  
     
