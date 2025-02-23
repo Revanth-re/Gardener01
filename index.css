@@ -1540,7 +1540,7 @@ margin: 10%;
     }
     .nav-2{
         padding: 3%;
-        width: 120vw;
+        /* width: 100vw; */
         /* margin: 4%; */
         margin-top: 0%;
     }
