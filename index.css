@@ -961,7 +961,7 @@ color: black;
 }
 .teamimg3:hover .team-sec3{
     display: block;
-    animation-name: mymove;
+    /* animation-name: mymove; */
 }
 #menu{
     display: none;
@@ -1435,7 +1435,7 @@ html{
 .Text h1{
     font-size: 1.6rem;
     margin-top: 10%;
-    margin-left: -5%;
+    margin-left: -40%;
 }
 .section-6{
     margin-top: 400%;
@@ -1445,7 +1445,9 @@ html{
 
 }
 #Readmore{
-    display: none;
+    display: block;
+    width: 40vw;
+    padding: 1%;
 }
 form{
     display: grid;
@@ -1472,10 +1474,24 @@ form{
     width: 90vw;
     height: 50vh;
 }
+
 .foot-item1{
 display: grid;
     grid-template-columns: auto;
     
+}
+.team-sec3{
+    width: 60vw;
+}
+.team-sec2{
+    width: 60vw;
+}
+.team-sec1{
+    width: 60vw;
+}
+#last-ip{
+    width: 30vw;
+    border-radius: 5%;
 }
 .div-foot{
     
@@ -1512,7 +1528,7 @@ display: grid;
     }
     #menu{
         display: block;
-        margin-left:80%;
+        margin-left:90%;
         font-size: 2rem;
     }
 
@@ -1523,9 +1539,10 @@ display: grid;
 margin: 10%;
     }
     .nav-2{
-        padding: 5%;
-        /* width: 90vw; */
-        /* margin: 5%; */
+        padding: 3%;
+        width: 120vw;
+        /* margin: 4%; */
+        margin-top: 0%;
     }
     .Button-text {
         position: absolute;
@@ -1542,12 +1559,13 @@ margin: 10%;
     }
     #Home-button{
         font-size: 1rem;
-        width: 35vw;
-        padding: 0%;
-        color: black;
-        height: 8vh;
+        width: 30vw;
+        /* padding: 2% ; */
+        color: rgb(0, 0, 0);
+        height: 5vh;
         background-color:rgb(28, 230, 163);
-        border-radius: 5%;
+        border-radius: 10%;
+    
     }
     .body{
         margin-left:5%
@@ -1627,7 +1645,7 @@ font-size: 0.9rem;
     }
     .Text{
         top: 25%;
-        left: 30%; 
+        left: 35%; 
     }
     #main-slide{
         margin-top: 40%;
