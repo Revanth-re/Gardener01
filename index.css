@@ -1751,7 +1751,10 @@ overflow-x: hidden;
         justify-content: center;
         font-size: 0.9rem;
        }
-
+#men{
+    display: block;
+    font-size: 1.4rem;
+}
  
     
 } 
