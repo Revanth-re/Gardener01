@@ -1210,6 +1210,9 @@ cursor: pointer;
                 color: white;
                 padding: 2%;
             }
+            #men{
+                display: none;
+            }
 
 @media (max-width:768px) {
 
