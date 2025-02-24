@@ -1309,7 +1309,7 @@ justify-content: center;
         display: grid;
         grid-template-columns: auto;
      margin-left: 0px;
-        margin:5%;
+        /* margin:5%; */
 
 height: 150vh;
   }
@@ -1491,7 +1491,7 @@ form{
 }
 .form{
     width: 90vw;
-    height: 90vh;  
+    height: 100vh;  
     border-radius: 10px;
 }
 .sec-7items{
