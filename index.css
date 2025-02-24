@@ -400,6 +400,9 @@ color: white;
         .g-section h1 {
             font-size: 3rem;
         }
+        #men{
+            display: none;
+        }
 
         .glass-section {
 
