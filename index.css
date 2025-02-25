@@ -1219,6 +1219,7 @@ cursor: pointer;
         
         html{
             overflow-x: hidden;
+            overflow-y: hidden;
         }
 
 @media (max-width:768px) {
